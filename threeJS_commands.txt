@@ -1,0 +1,6 @@
+npm init -y
+npm install parcel -g
+npm install three
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+parcel ./src/index.html
+npm install dat.gui

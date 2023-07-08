@@ -1,0 +1,22 @@
+{
+  "name": "three_1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://mjnvsai.github.io/Nebula_Space/",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.154.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
